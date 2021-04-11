@@ -1,0 +1,495 @@
+2021-04-10 11:02:26.644  INFO 1308 - o.h.validator.internal.util.Version      : Line No. 21 : HV000001: Hibernate Validator 6.1.7.Final
+2021-04-10 11:02:26.899  INFO 1308 - i.mozark.CommandFileExecutorApplication  : Line No. 55 : Starting CommandFileExecutorApplication on DESKTOP-8D58F7H with PID 1308 (E:\mozark-workspace\command-file-executor\bin\main started by Ankur Mishra in E:\mozark-workspace\command-file-executor)
+2021-04-10 11:02:26.955  INFO 1308 - i.mozark.CommandFileExecutorApplication  : Line No. 651 : No active profile set, falling back to default profiles: default
+2021-04-10 11:02:27.553  INFO 1308 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-10 11:02:27.554  INFO 1308 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-10 11:02:49.879  INFO 1308 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 108 : Tomcat initialized with port(s): 30015 (http)
+2021-04-10 11:02:49.936  INFO 1308 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Initializing ProtocolHandler ["http-nio-30015"]
+2021-04-10 11:02:49.960  INFO 1308 - o.apache.catalina.core.StandardService   : Line No. 173 : Starting service [Tomcat]
+2021-04-10 11:02:49.961  INFO 1308 - org.apache.catalina.core.StandardEngine  : Line No. 173 : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-10 11:02:50.717  INFO 1308 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring embedded WebApplicationContext
+2021-04-10 11:02:50.718  INFO 1308 - w.s.c.ServletWebServerApplicationContext : Line No. 285 : Root WebApplicationContext: initialization completed in 23163 ms
+2021-04-10 11:02:57.545  INFO 1308 - o.s.s.concurrent.ThreadPoolTaskExecutor  : Line No. 181 : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-10 11:02:59.280  INFO 1308 - o.s.b.d.a.OptionalLiveReloadServer       : Line No. 58 : LiveReload server is running on port 35729
+2021-04-10 11:02:59.343  INFO 1308 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Starting ProtocolHandler ["http-nio-30015"]
+2021-04-10 11:02:59.932  INFO 1308 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 220 : Tomcat started on port(s): 30015 (http) with context path ''
+2021-04-10 11:03:00.166  INFO 1308 - i.mozark.CommandFileExecutorApplication  : Line No. 61 : Started CommandFileExecutorApplication in 38.655 seconds (JVM running for 49.791)
+2021-04-10 11:04:45.545  INFO 1308 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-10 11:04:45.546  INFO 1308 - o.s.web.servlet.DispatcherServlet        : Line No. 525 : Initializing Servlet 'dispatcherServlet'
+2021-04-10 11:04:45.587  INFO 1308 - o.s.web.servlet.DispatcherServlet        : Line No. 547 : Completed initialization in 40 ms
+2021-04-10 11:04:46.556  INFO 1308 - in.mozark.controller.EventController     : Line No. 25 : uploadFilesFromTestId UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345], eventName=Upload S3, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 11:04:46.582  INFO 1308 - in.mozark.service.impl.EventServiceImpl  : Line No. 34 : upload UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345], eventName=Upload S3, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 11:04:46.586  INFO 1308 - in.mozark.service.impl.EventServiceImpl  : Line No. 38 : eventAttributeDto EventAttributeDto [fileType=null, fileName=null, testId=12345] 
+2021-04-10 11:04:46.611  INFO 1308 - in.mozark.utils.UploadFileInfo           : Line No. 20 : propertiesFilename config/fileNameAndFileType.properties 
+2021-04-10 11:06:26.152  INFO 5804 - o.h.validator.internal.util.Version      : Line No. 21 : HV000001: Hibernate Validator 6.1.7.Final
+2021-04-10 11:06:26.317  INFO 5804 - i.mozark.CommandFileExecutorApplication  : Line No. 55 : Starting CommandFileExecutorApplication on DESKTOP-8D58F7H with PID 5804 (E:\mozark-workspace\command-file-executor\bin\main started by Ankur Mishra in E:\mozark-workspace\command-file-executor)
+2021-04-10 11:06:26.322  INFO 5804 - i.mozark.CommandFileExecutorApplication  : Line No. 651 : No active profile set, falling back to default profiles: default
+2021-04-10 11:06:26.748  INFO 5804 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-10 11:06:26.749  INFO 5804 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-10 11:06:38.753  INFO 5804 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 108 : Tomcat initialized with port(s): 30015 (http)
+2021-04-10 11:06:39.168  INFO 5804 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Initializing ProtocolHandler ["http-nio-30015"]
+2021-04-10 11:06:39.180  INFO 5804 - o.apache.catalina.core.StandardService   : Line No. 173 : Starting service [Tomcat]
+2021-04-10 11:06:39.181  INFO 5804 - org.apache.catalina.core.StandardEngine  : Line No. 173 : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-10 11:06:39.599  INFO 5804 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring embedded WebApplicationContext
+2021-04-10 11:06:39.601  INFO 5804 - w.s.c.ServletWebServerApplicationContext : Line No. 285 : Root WebApplicationContext: initialization completed in 12851 ms
+2021-04-10 11:06:50.068  INFO 5804 - o.s.s.concurrent.ThreadPoolTaskExecutor  : Line No. 181 : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-10 11:06:51.192  INFO 5804 - o.s.b.d.a.OptionalLiveReloadServer       : Line No. 58 : LiveReload server is running on port 35729
+2021-04-10 11:06:51.483  INFO 5804 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Starting ProtocolHandler ["http-nio-30015"]
+2021-04-10 11:06:52.058  INFO 5804 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 220 : Tomcat started on port(s): 30015 (http) with context path ''
+2021-04-10 11:06:52.098  INFO 5804 - i.mozark.CommandFileExecutorApplication  : Line No. 61 : Started CommandFileExecutorApplication in 28.607 seconds (JVM running for 34.903)
+2021-04-10 11:07:08.816  INFO 5804 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-10 11:07:08.817  INFO 5804 - o.s.web.servlet.DispatcherServlet        : Line No. 525 : Initializing Servlet 'dispatcherServlet'
+2021-04-10 11:07:08.884  INFO 5804 - o.s.web.servlet.DispatcherServlet        : Line No. 547 : Completed initialization in 66 ms
+2021-04-10 11:07:18.238  INFO 5804 - in.mozark.controller.EventController     : Line No. 25 : uploadFilesFromTestId UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345], eventName=Upload S3, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 11:07:42.986  INFO 5804 - in.mozark.service.impl.EventServiceImpl  : Line No. 34 : upload UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345], eventName=Upload S3, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 11:07:53.266  INFO 5804 - in.mozark.service.impl.EventServiceImpl  : Line No. 38 : eventAttributeDto EventAttributeDto [fileType=null, fileName=null, testId=12345] 
+2021-04-10 11:08:17.378  INFO 5804 - in.mozark.utils.UploadFileInfo           : Line No. 20 : propertiesFilename config/fileNameAndFileType.properties 
+2021-04-10 11:08:32.970  INFO 5804 - in.mozark.utils.UploadFileInfo           : Line No. 36 : key value pair read from property file {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 11:08:45.246  INFO 5804 - in.mozark.service.impl.EventServiceImpl  : Line No. 45 : fileNameAndFileType {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 11:09:29.937  INFO 5804 - in.mozark.service.impl.EventServiceImpl  : Line No. 58 : fileNameAndFileType {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 11:12:31.612  INFO 7764 - i.mozark.CommandFileExecutorApplication  : Line No. 55 : Starting CommandFileExecutorApplication on DESKTOP-8D58F7H with PID 7764 (E:\mozark-workspace\command-file-executor\bin\main started by Ankur Mishra in E:\mozark-workspace\command-file-executor)
+2021-04-10 11:12:31.654  INFO 7764 - i.mozark.CommandFileExecutorApplication  : Line No. 651 : No active profile set, falling back to default profiles: default
+2021-04-10 11:12:31.707  INFO 7764 - o.h.validator.internal.util.Version      : Line No. 21 : HV000001: Hibernate Validator 6.1.7.Final
+2021-04-10 11:12:32.235  INFO 7764 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-10 11:12:32.236  INFO 7764 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-10 11:12:45.015  INFO 7764 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 108 : Tomcat initialized with port(s): 30015 (http)
+2021-04-10 11:12:45.140  INFO 7764 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Initializing ProtocolHandler ["http-nio-30015"]
+2021-04-10 11:12:45.152  INFO 7764 - o.apache.catalina.core.StandardService   : Line No. 173 : Starting service [Tomcat]
+2021-04-10 11:12:45.153  INFO 7764 - org.apache.catalina.core.StandardEngine  : Line No. 173 : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-10 11:12:45.926  INFO 7764 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring embedded WebApplicationContext
+2021-04-10 11:12:45.928  INFO 7764 - w.s.c.ServletWebServerApplicationContext : Line No. 285 : Root WebApplicationContext: initialization completed in 13691 ms
+2021-04-10 11:12:48.982  INFO 7764 - o.s.s.concurrent.ThreadPoolTaskExecutor  : Line No. 181 : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-10 11:12:50.276  INFO 7764 - o.s.b.d.a.OptionalLiveReloadServer       : Line No. 58 : LiveReload server is running on port 35729
+2021-04-10 11:12:50.346  INFO 7764 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Starting ProtocolHandler ["http-nio-30015"]
+2021-04-10 11:12:50.793  INFO 7764 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 220 : Tomcat started on port(s): 30015 (http) with context path ''
+2021-04-10 11:12:50.867  INFO 7764 - i.mozark.CommandFileExecutorApplication  : Line No. 61 : Started CommandFileExecutorApplication in 22.806 seconds (JVM running for 31.579)
+2021-04-10 11:13:51.174  INFO 7764 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-10 11:13:51.174  INFO 7764 - o.s.web.servlet.DispatcherServlet        : Line No. 525 : Initializing Servlet 'dispatcherServlet'
+2021-04-10 11:13:51.195  INFO 7764 - o.s.web.servlet.DispatcherServlet        : Line No. 547 : Completed initialization in 21 ms
+2021-04-10 11:13:51.651  INFO 7764 - in.mozark.controller.EventController     : Line No. 25 : uploadFilesFromTestId UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345], eventName=Upload S3, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 11:13:51.654  INFO 7764 - in.mozark.service.impl.EventServiceImpl  : Line No. 34 : upload UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345], eventName=Upload S3, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 11:13:51.655  INFO 7764 - in.mozark.service.impl.EventServiceImpl  : Line No. 38 : eventAttributeDto EventAttributeDto [fileType=null, fileName=null, testId=12345] 
+2021-04-10 11:13:51.656  INFO 7764 - in.mozark.utils.UploadFileInfo           : Line No. 20 : propertiesFilename config/fileNameAndFileType.properties 
+2021-04-10 11:13:51.682  INFO 7764 - in.mozark.utils.UploadFileInfo           : Line No. 36 : key value pair read from property file {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 11:13:51.683  INFO 7764 - in.mozark.service.impl.EventServiceImpl  : Line No. 45 : fileNameAndFileType {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 11:13:56.878  INFO 7764 - in.mozark.service.impl.EventServiceImpl  : Line No. 58 : fileNameAndFileType {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 11:14:02.305  INFO 7764 - in.mozark.service.impl.EventServiceImpl  : Line No. 63 : fileName memory.csv 
+2021-04-10 11:14:43.198  INFO 7764 - in.mozark.service.impl.EventServiceImpl  : Line No. 66 : fileType device-resource.mem 
+2021-04-10 11:15:08.665  INFO 7764 - in.mozark.service.impl.EventServiceImpl  : Line No. 80 : uploadFileDto UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.mem, fileName=memory.csv, testId=12345], eventName=Upload S3, fileData=E:\file\12345\memory.csv, mozarkEventAttributeDto=null] 
+2021-04-10 11:15:13.094  INFO 7764 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 29 : connectingUploadAPI UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.mem, fileName=memory.csv, testId=12345], eventName=Upload S3, fileData=E:\file\12345\memory.csv, mozarkEventAttributeDto=null] 
+2021-04-10 11:15:13.174  INFO 7764 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 41 : request body {eventName=[Upload S3], file=[file [E:\file\12345\memory.csv]], eventAttributes=[EventAttributeDto [fileType=device-resource.mem, fileName=memory.csv, testId=12345]], mozark.eventAttributes=[{}]} 
+2021-04-10 11:15:14.090  INFO 7764 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 44 : mozarkUploadAPI https://api.mozark.ai/v1/uploadFiles 
+2021-04-10 11:15:34.664  INFO 7764 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 46 : Response From Upload API: File uploaded successfully!
+2021-04-10 11:15:41.297  INFO 7764 - in.mozark.service.impl.EventServiceImpl  : Line No. 82 : uploadAPIResponse ResposeDto [responseMessage=sucess, responseCode=00, responseDetails=null] 
+2021-04-10 11:16:44.254  INFO 7764 - in.mozark.service.impl.EventServiceImpl  : Line No. 91 : file didn't deleted successfully
+2021-04-10 11:16:56.450  INFO 7764 - in.mozark.service.impl.EventServiceImpl  : Line No. 63 : fileName cpu.csv 
+2021-04-10 11:17:07.516  INFO 7764 - in.mozark.service.impl.EventServiceImpl  : Line No. 66 : fileType device-resource.cpu 
+2021-04-10 11:18:32.352  INFO 1956 - o.h.validator.internal.util.Version      : Line No. 21 : HV000001: Hibernate Validator 6.1.7.Final
+2021-04-10 11:18:32.460  INFO 1956 - i.mozark.CommandFileExecutorApplication  : Line No. 55 : Starting CommandFileExecutorApplication on DESKTOP-8D58F7H with PID 1956 (E:\mozark-workspace\command-file-executor\bin\main started by Ankur Mishra in E:\mozark-workspace\command-file-executor)
+2021-04-10 11:18:32.462  INFO 1956 - i.mozark.CommandFileExecutorApplication  : Line No. 651 : No active profile set, falling back to default profiles: default
+2021-04-10 11:18:32.961  INFO 1956 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-10 11:18:32.964  INFO 1956 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-10 11:18:44.265  INFO 1956 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 108 : Tomcat initialized with port(s): 30015 (http)
+2021-04-10 11:18:44.453  INFO 1956 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Initializing ProtocolHandler ["http-nio-30015"]
+2021-04-10 11:18:44.466  INFO 1956 - o.apache.catalina.core.StandardService   : Line No. 173 : Starting service [Tomcat]
+2021-04-10 11:18:44.467  INFO 1956 - org.apache.catalina.core.StandardEngine  : Line No. 173 : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-10 11:18:44.953  INFO 1956 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring embedded WebApplicationContext
+2021-04-10 11:18:44.956  INFO 1956 - w.s.c.ServletWebServerApplicationContext : Line No. 285 : Root WebApplicationContext: initialization completed in 11989 ms
+2021-04-10 11:18:47.634  INFO 1956 - o.s.s.concurrent.ThreadPoolTaskExecutor  : Line No. 181 : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-10 11:18:50.407  INFO 1956 - o.s.b.d.a.OptionalLiveReloadServer       : Line No. 58 : LiveReload server is running on port 35729
+2021-04-10 11:18:50.576  INFO 1956 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Starting ProtocolHandler ["http-nio-30015"]
+2021-04-10 11:18:51.593  INFO 1956 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 220 : Tomcat started on port(s): 30015 (http) with context path ''
+2021-04-10 11:18:51.617  INFO 1956 - i.mozark.CommandFileExecutorApplication  : Line No. 61 : Started CommandFileExecutorApplication in 20.666 seconds (JVM running for 28.715)
+2021-04-10 11:19:05.485  INFO 1956 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-10 11:19:05.485  INFO 1956 - o.s.web.servlet.DispatcherServlet        : Line No. 525 : Initializing Servlet 'dispatcherServlet'
+2021-04-10 11:19:06.061  INFO 1956 - o.s.web.servlet.DispatcherServlet        : Line No. 547 : Completed initialization in 575 ms
+2021-04-10 11:19:08.029  INFO 1956 - in.mozark.controller.EventController     : Line No. 25 : uploadFilesFromTestId UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345], eventName=Upload S3, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 11:19:08.359  INFO 1956 - in.mozark.service.impl.EventServiceImpl  : Line No. 34 : upload UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345], eventName=Upload S3, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 11:19:08.360  INFO 1956 - in.mozark.service.impl.EventServiceImpl  : Line No. 38 : eventAttributeDto EventAttributeDto [fileType=null, fileName=null, testId=12345] 
+2021-04-10 11:19:08.361  INFO 1956 - in.mozark.utils.UploadFileInfo           : Line No. 20 : propertiesFilename config/fileNameAndFileType.properties 
+2021-04-10 11:19:08.929  INFO 1956 - in.mozark.utils.UploadFileInfo           : Line No. 36 : key value pair read from property file {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 11:19:08.930  INFO 1956 - in.mozark.service.impl.EventServiceImpl  : Line No. 45 : fileNameAndFileType {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 11:19:13.278  INFO 1956 - in.mozark.service.impl.EventServiceImpl  : Line No. 58 : fileNameAndFileType {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 11:19:16.686  INFO 1956 - in.mozark.service.impl.EventServiceImpl  : Line No. 63 : fileName memory.csv 
+2021-04-10 11:19:22.586  INFO 1956 - in.mozark.service.impl.EventServiceImpl  : Line No. 66 : fileType device-resource.mem 
+2021-04-10 11:19:47.710  INFO 1956 - in.mozark.service.impl.EventServiceImpl  : Line No. 80 : uploadFileDto UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.mem, fileName=memory.csv, testId=12345], eventName=Upload S3, fileData=E:\file\12345\memory.csv, mozarkEventAttributeDto=null] 
+2021-04-10 11:19:50.872  INFO 1956 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 29 : connectingUploadAPI UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.mem, fileName=memory.csv, testId=12345], eventName=Upload S3, fileData=E:\file\12345\memory.csv, mozarkEventAttributeDto=null] 
+2021-04-10 11:19:50.899  INFO 1956 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 41 : request body {eventName=[Upload S3], file=[file [E:\file\12345\memory.csv]], eventAttributes=[EventAttributeDto [fileType=device-resource.mem, fileName=memory.csv, testId=12345]], mozark.eventAttributes=[{}]} 
+2021-04-10 11:19:51.868  INFO 1956 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 44 : mozarkUploadAPI https://api.mozark.ai/v1/uploadFiles 
+2021-04-10 11:20:10.080  INFO 1956 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 46 : Response From Upload API: File uploaded successfully!
+2021-04-10 11:20:14.377  INFO 1956 - in.mozark.service.impl.EventServiceImpl  : Line No. 82 : uploadAPIResponse ResposeDto [responseMessage=sucess, responseCode=00, responseDetails=null] 
+2021-04-10 11:20:44.607  INFO 1956 - in.mozark.service.impl.EventServiceImpl  : Line No. 87 : file deleted successfully 
+2021-04-10 11:20:52.042  INFO 1956 - in.mozark.service.impl.EventServiceImpl  : Line No. 63 : fileName cpu.csv 
+2021-04-10 11:20:52.043  INFO 1956 - in.mozark.service.impl.EventServiceImpl  : Line No. 66 : fileType device-resource.cpu 
+2021-04-10 11:20:52.046  INFO 1956 - in.mozark.service.impl.EventServiceImpl  : Line No. 80 : uploadFileDto UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.cpu, fileName=cpu.csv, testId=12345], eventName=Upload S3, fileData=E:\file\12345\cpu.csv, mozarkEventAttributeDto=null] 
+2021-04-10 11:20:52.047  INFO 1956 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 29 : connectingUploadAPI UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.cpu, fileName=cpu.csv, testId=12345], eventName=Upload S3, fileData=E:\file\12345\cpu.csv, mozarkEventAttributeDto=null] 
+2021-04-10 11:20:52.049  INFO 1956 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 41 : request body {eventName=[Upload S3], file=[file [E:\file\12345\cpu.csv]], eventAttributes=[EventAttributeDto [fileType=device-resource.cpu, fileName=cpu.csv, testId=12345]], mozark.eventAttributes=[{}]} 
+2021-04-10 11:20:52.065  INFO 1956 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 44 : mozarkUploadAPI https://api.mozark.ai/v1/uploadFiles 
+2021-04-10 11:20:52.654  INFO 1956 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 46 : Response From Upload API: File uploaded successfully!
+2021-04-10 11:20:52.655  INFO 1956 - in.mozark.service.impl.EventServiceImpl  : Line No. 82 : uploadAPIResponse ResposeDto [responseMessage=sucess, responseCode=00, responseDetails=null] 
+2021-04-10 11:20:52.656  INFO 1956 - in.mozark.service.impl.EventServiceImpl  : Line No. 87 : file deleted successfully 
+2021-04-10 11:20:52.657  INFO 1956 - in.mozark.service.impl.EventServiceImpl  : Line No. 63 : fileName battery.csv 
+2021-04-10 11:20:52.658  INFO 1956 - in.mozark.service.impl.EventServiceImpl  : Line No. 66 : fileType device-resource.battery 
+2021-04-10 11:20:52.658  INFO 1956 - in.mozark.service.impl.EventServiceImpl  : Line No. 80 : uploadFileDto UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.battery, fileName=battery.csv, testId=12345], eventName=Upload S3, fileData=E:\file\12345\battery.csv, mozarkEventAttributeDto=null] 
+2021-04-10 11:20:52.659  INFO 1956 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 29 : connectingUploadAPI UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.battery, fileName=battery.csv, testId=12345], eventName=Upload S3, fileData=E:\file\12345\battery.csv, mozarkEventAttributeDto=null] 
+2021-04-10 11:20:52.660  INFO 1956 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 41 : request body {eventName=[Upload S3], file=[file [E:\file\12345\battery.csv]], eventAttributes=[EventAttributeDto [fileType=device-resource.battery, fileName=battery.csv, testId=12345]], mozark.eventAttributes=[{}]} 
+2021-04-10 11:20:52.668  INFO 1956 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 44 : mozarkUploadAPI https://api.mozark.ai/v1/uploadFiles 
+2021-04-10 11:20:53.155  INFO 1956 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 46 : Response From Upload API: File uploaded successfully!
+2021-04-10 11:20:53.156  INFO 1956 - in.mozark.service.impl.EventServiceImpl  : Line No. 82 : uploadAPIResponse ResposeDto [responseMessage=sucess, responseCode=00, responseDetails=null] 
+2021-04-10 11:20:53.157  INFO 1956 - in.mozark.service.impl.EventServiceImpl  : Line No. 87 : file deleted successfully 
+2021-04-10 11:34:45.206  INFO 1956 - o.s.s.concurrent.ThreadPoolTaskExecutor  : Line No. 218 : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-10 11:34:59.518  INFO 1956 - i.mozark.CommandFileExecutorApplication  : Line No. 55 : Starting CommandFileExecutorApplication on DESKTOP-8D58F7H with PID 1956 (E:\mozark-workspace\command-file-executor\bin\main started by Ankur Mishra in E:\mozark-workspace\command-file-executor)
+2021-04-10 11:34:59.519  INFO 1956 - i.mozark.CommandFileExecutorApplication  : Line No. 651 : No active profile set, falling back to default profiles: default
+2021-04-10 11:35:07.703  INFO 1956 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 108 : Tomcat initialized with port(s): 30015 (http)
+2021-04-10 11:35:07.706  INFO 1956 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Initializing ProtocolHandler ["http-nio-30015"]
+2021-04-10 11:35:07.707  INFO 1956 - o.apache.catalina.core.StandardService   : Line No. 173 : Starting service [Tomcat]
+2021-04-10 11:35:07.707  INFO 1956 - org.apache.catalina.core.StandardEngine  : Line No. 173 : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-10 11:35:07.890  INFO 1956 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring embedded WebApplicationContext
+2021-04-10 11:35:07.891  INFO 1956 - w.s.c.ServletWebServerApplicationContext : Line No. 285 : Root WebApplicationContext: initialization completed in 8351 ms
+2021-04-10 11:35:08.478  INFO 1956 - o.s.s.concurrent.ThreadPoolTaskExecutor  : Line No. 181 : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-10 11:35:08.701  INFO 1956 - o.s.b.d.a.OptionalLiveReloadServer       : Line No. 58 : LiveReload server is running on port 35729
+2021-04-10 11:35:08.766  INFO 1956 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Starting ProtocolHandler ["http-nio-30015"]
+2021-04-10 11:35:08.801  INFO 1956 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 220 : Tomcat started on port(s): 30015 (http) with context path ''
+2021-04-10 11:35:08.822  INFO 1956 - i.mozark.CommandFileExecutorApplication  : Line No. 61 : Started CommandFileExecutorApplication in 9.878 seconds (JVM running for 1005.92)
+2021-04-10 11:35:08.827  INFO 1956 - .ConditionEvaluationDeltaLoggingListener : Line No. 63 : Condition evaluation unchanged
+2021-04-10 11:40:23.815  INFO 13040 - o.h.validator.internal.util.Version      : Line No. 21 : HV000001: Hibernate Validator 6.1.7.Final
+2021-04-10 11:40:24.149  INFO 13040 - i.mozark.CommandFileExecutorApplication  : Line No. 55 : Starting CommandFileExecutorApplication on DESKTOP-8D58F7H with PID 13040 (E:\mozark-workspace\command-file-executor\bin\main started by Ankur Mishra in E:\mozark-workspace\command-file-executor)
+2021-04-10 11:40:24.156  INFO 13040 - i.mozark.CommandFileExecutorApplication  : Line No. 651 : No active profile set, falling back to default profiles: default
+2021-04-10 11:40:24.547  INFO 13040 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-10 11:40:24.548  INFO 13040 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-10 11:40:38.538  INFO 13040 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 108 : Tomcat initialized with port(s): 30015 (http)
+2021-04-10 11:40:38.639  INFO 13040 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Initializing ProtocolHandler ["http-nio-30015"]
+2021-04-10 11:40:38.653  INFO 13040 - o.apache.catalina.core.StandardService   : Line No. 173 : Starting service [Tomcat]
+2021-04-10 11:40:38.654  INFO 13040 - org.apache.catalina.core.StandardEngine  : Line No. 173 : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-10 11:40:39.214  INFO 13040 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring embedded WebApplicationContext
+2021-04-10 11:40:39.215  INFO 13040 - w.s.c.ServletWebServerApplicationContext : Line No. 285 : Root WebApplicationContext: initialization completed in 14666 ms
+2021-04-10 11:40:40.075  INFO 13040 - o.s.s.concurrent.ThreadPoolTaskExecutor  : Line No. 181 : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-10 11:40:40.872  INFO 13040 - o.s.b.d.a.OptionalLiveReloadServer       : Line No. 58 : LiveReload server is running on port 35729
+2021-04-10 11:40:40.949  INFO 13040 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Starting ProtocolHandler ["http-nio-30015"]
+2021-04-10 11:40:41.232  INFO 13040 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 220 : Tomcat started on port(s): 30015 (http) with context path ''
+2021-04-10 11:40:41.357  INFO 13040 - i.mozark.CommandFileExecutorApplication  : Line No. 61 : Started CommandFileExecutorApplication in 20.116 seconds (JVM running for 30.547)
+2021-04-10 11:41:28.577  INFO 13040 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-10 11:41:28.577  INFO 13040 - o.s.web.servlet.DispatcherServlet        : Line No. 525 : Initializing Servlet 'dispatcherServlet'
+2021-04-10 11:41:28.684  INFO 13040 - o.s.web.servlet.DispatcherServlet        : Line No. 547 : Completed initialization in 106 ms
+2021-04-10 11:41:29.395  INFO 13040 - in.mozark.controller.EventController     : Line No. 25 : uploadFilesFromTestId UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345], eventName=Upload S3, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 11:41:29.407  INFO 13040 - in.mozark.service.impl.EventServiceImpl  : Line No. 35 : upload UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345], eventName=Upload S3, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 11:41:35.257  INFO 13040 - in.mozark.service.impl.EventServiceImpl  : Line No. 39 : eventAttributeDto EventAttributeDto [fileType=null, fileName=null, testId=12345] 
+2021-04-10 11:42:18.870  INFO 13040 - in.mozark.utils.UploadFileInfo           : Line No. 20 : propertiesFilename config/fileNameAndFileType.properties 
+2021-04-10 11:42:18.885  INFO 13040 - in.mozark.utils.UploadFileInfo           : Line No. 36 : key value pair read from property file {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 11:42:18.887  INFO 13040 - in.mozark.service.impl.EventServiceImpl  : Line No. 47 : fileNameAndFileType {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 11:42:18.888  INFO 13040 - in.mozark.service.impl.EventServiceImpl  : Line No. 71 : fileNameAndFileType {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 11:42:23.133  INFO 13040 - in.mozark.service.impl.EventServiceImpl  : Line No. 79 : fileName battery.csv 
+2021-04-10 11:42:23.134  INFO 13040 - in.mozark.service.impl.EventServiceImpl  : Line No. 82 : fileType device-resource.battery 
+2021-04-10 11:42:23.137  INFO 13040 - in.mozark.service.impl.EventServiceImpl  : Line No. 94 : uploadFileDto UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.battery, fileName=battery.csv, testId=12345], eventName=Upload S3, fileData=E:\file\12345\battery.csv, mozarkEventAttributeDto=null] 
+2021-04-10 11:42:23.139  INFO 13040 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 29 : connectingUploadAPI UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.battery, fileName=battery.csv, testId=12345], eventName=Upload S3, fileData=E:\file\12345\battery.csv, mozarkEventAttributeDto=null] 
+2021-04-10 11:42:23.143  INFO 13040 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 41 : request body {eventName=[Upload S3], file=[file [E:\file\12345\battery.csv]], eventAttributes=[EventAttributeDto [fileType=device-resource.battery, fileName=battery.csv, testId=12345]], mozark.eventAttributes=[{}]} 
+2021-04-10 11:42:23.195  INFO 13040 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 44 : mozarkUploadAPI https://api.mozark.ai/v1/uploadFiles 
+2021-04-10 11:42:28.013  INFO 13040 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 46 : Response From Upload API: File uploaded successfully!
+2021-04-10 11:42:28.014  INFO 13040 - in.mozark.service.impl.EventServiceImpl  : Line No. 96 : uploadAPIResponse ResposeDto [responseMessage=sucess, responseCode=00, responseDetails=null] 
+2021-04-10 11:42:28.015  INFO 13040 - in.mozark.service.impl.EventServiceImpl  : Line No. 101 : file deleted successfully 
+2021-04-10 11:42:28.017  INFO 13040 - in.mozark.service.impl.EventServiceImpl  : Line No. 79 : fileName cpu.csv 
+2021-04-10 11:42:28.017  INFO 13040 - in.mozark.service.impl.EventServiceImpl  : Line No. 82 : fileType device-resource.cpu 
+2021-04-10 11:42:28.018  INFO 13040 - in.mozark.service.impl.EventServiceImpl  : Line No. 94 : uploadFileDto UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.cpu, fileName=cpu.csv, testId=12345], eventName=Upload S3, fileData=E:\file\12345\cpu.csv, mozarkEventAttributeDto=null] 
+2021-04-10 11:42:28.019  INFO 13040 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 29 : connectingUploadAPI UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.cpu, fileName=cpu.csv, testId=12345], eventName=Upload S3, fileData=E:\file\12345\cpu.csv, mozarkEventAttributeDto=null] 
+2021-04-10 11:42:28.020  INFO 13040 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 41 : request body {eventName=[Upload S3], file=[file [E:\file\12345\cpu.csv]], eventAttributes=[EventAttributeDto [fileType=device-resource.cpu, fileName=cpu.csv, testId=12345]], mozark.eventAttributes=[{}]} 
+2021-04-10 11:42:28.033  INFO 13040 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 44 : mozarkUploadAPI https://api.mozark.ai/v1/uploadFiles 
+2021-04-10 11:42:28.545  INFO 13040 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 46 : Response From Upload API: File uploaded successfully!
+2021-04-10 11:42:28.545  INFO 13040 - in.mozark.service.impl.EventServiceImpl  : Line No. 96 : uploadAPIResponse ResposeDto [responseMessage=sucess, responseCode=00, responseDetails=null] 
+2021-04-10 11:42:28.546  INFO 13040 - in.mozark.service.impl.EventServiceImpl  : Line No. 101 : file deleted successfully 
+2021-04-10 11:42:28.547  INFO 13040 - in.mozark.service.impl.EventServiceImpl  : Line No. 79 : fileName memory.csv 
+2021-04-10 11:42:28.547  INFO 13040 - in.mozark.service.impl.EventServiceImpl  : Line No. 82 : fileType device-resource.mem 
+2021-04-10 11:42:28.548  INFO 13040 - in.mozark.service.impl.EventServiceImpl  : Line No. 94 : uploadFileDto UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.mem, fileName=memory.csv, testId=12345], eventName=Upload S3, fileData=E:\file\12345\memory.csv, mozarkEventAttributeDto=null] 
+2021-04-10 11:42:28.549  INFO 13040 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 29 : connectingUploadAPI UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.mem, fileName=memory.csv, testId=12345], eventName=Upload S3, fileData=E:\file\12345\memory.csv, mozarkEventAttributeDto=null] 
+2021-04-10 11:42:28.549  INFO 13040 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 41 : request body {eventName=[Upload S3], file=[file [E:\file\12345\memory.csv]], eventAttributes=[EventAttributeDto [fileType=device-resource.mem, fileName=memory.csv, testId=12345]], mozark.eventAttributes=[{}]} 
+2021-04-10 11:42:28.554  INFO 13040 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 44 : mozarkUploadAPI https://api.mozark.ai/v1/uploadFiles 
+2021-04-10 11:42:28.986  INFO 13040 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 46 : Response From Upload API: File uploaded successfully!
+2021-04-10 11:42:28.986  INFO 13040 - in.mozark.service.impl.EventServiceImpl  : Line No. 96 : uploadAPIResponse ResposeDto [responseMessage=sucess, responseCode=00, responseDetails=null] 
+2021-04-10 11:42:28.987  INFO 13040 - in.mozark.service.impl.EventServiceImpl  : Line No. 101 : file deleted successfully 
+2021-04-10 11:42:28.987  INFO 13040 - in.mozark.service.impl.EventServiceImpl  : Line No. 51 : uploadResponse {memory.csv=ResposeDto [responseMessage=sucess, responseCode=00, responseDetails=null], battery.csv=ResposeDto [responseMessage=sucess, responseCode=00, responseDetails=null], cpu.csv=ResposeDto [responseMessage=sucess, responseCode=00, responseDetails=null]} 
+2021-04-10 15:40:43.982  INFO 12796 - o.h.validator.internal.util.Version      : Line No. 21 : HV000001: Hibernate Validator 6.1.7.Final
+2021-04-10 15:40:44.396  INFO 12796 - i.mozark.CommandFileExecutorApplication  : Line No. 55 : Starting CommandFileExecutorApplication on DESKTOP-8D58F7H with PID 12796 (E:\mozark-workspace\command-file-executor\bin\main started by Ankur Mishra in E:\mozark-workspace\command-file-executor)
+2021-04-10 15:40:44.401  INFO 12796 - i.mozark.CommandFileExecutorApplication  : Line No. 651 : No active profile set, falling back to default profiles: default
+2021-04-10 15:40:44.821  INFO 12796 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-10 15:40:44.827  INFO 12796 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-10 15:41:16.252  INFO 12796 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 108 : Tomcat initialized with port(s): 30015 (http)
+2021-04-10 15:41:16.606  INFO 12796 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Initializing ProtocolHandler ["http-nio-30015"]
+2021-04-10 15:41:16.619  INFO 12796 - o.apache.catalina.core.StandardService   : Line No. 173 : Starting service [Tomcat]
+2021-04-10 15:41:16.619  INFO 12796 - org.apache.catalina.core.StandardEngine  : Line No. 173 : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-10 15:41:20.242  INFO 12796 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring embedded WebApplicationContext
+2021-04-10 15:41:20.243  INFO 12796 - w.s.c.ServletWebServerApplicationContext : Line No. 285 : Root WebApplicationContext: initialization completed in 35415 ms
+2021-04-10 15:41:25.593  INFO 12796 - o.s.s.concurrent.ThreadPoolTaskExecutor  : Line No. 181 : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-10 15:41:27.145  INFO 12796 - o.s.b.d.a.OptionalLiveReloadServer       : Line No. 58 : LiveReload server is running on port 35729
+2021-04-10 15:41:27.225  INFO 12796 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Starting ProtocolHandler ["http-nio-30015"]
+2021-04-10 15:41:27.844  INFO 12796 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 220 : Tomcat started on port(s): 30015 (http) with context path ''
+2021-04-10 15:41:27.956  INFO 12796 - i.mozark.CommandFileExecutorApplication  : Line No. 61 : Started CommandFileExecutorApplication in 47.357 seconds (JVM running for 50.783)
+2021-04-10 15:45:13.321  INFO 8612 - o.h.validator.internal.util.Version      : Line No. 21 : HV000001: Hibernate Validator 6.1.7.Final
+2021-04-10 15:45:13.537  INFO 8612 - i.mozark.CommandFileExecutorApplication  : Line No. 55 : Starting CommandFileExecutorApplication on DESKTOP-8D58F7H with PID 8612 (E:\mozark-workspace\command-file-executor\bin\main started by Ankur Mishra in E:\mozark-workspace\command-file-executor)
+2021-04-10 15:45:13.592  INFO 8612 - i.mozark.CommandFileExecutorApplication  : Line No. 651 : No active profile set, falling back to default profiles: default
+2021-04-10 15:45:13.925  INFO 8612 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-10 15:45:13.926  INFO 8612 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-10 15:45:30.333  INFO 8612 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 108 : Tomcat initialized with port(s): 30015 (http)
+2021-04-10 15:45:30.617  INFO 8612 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Initializing ProtocolHandler ["http-nio-30015"]
+2021-04-10 15:45:30.674  INFO 8612 - o.apache.catalina.core.StandardService   : Line No. 173 : Starting service [Tomcat]
+2021-04-10 15:45:30.675  INFO 8612 - org.apache.catalina.core.StandardEngine  : Line No. 173 : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-10 15:45:31.709  INFO 8612 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring embedded WebApplicationContext
+2021-04-10 15:45:31.713  INFO 8612 - w.s.c.ServletWebServerApplicationContext : Line No. 285 : Root WebApplicationContext: initialization completed in 17785 ms
+2021-04-10 15:45:34.352  INFO 8612 - o.s.s.concurrent.ThreadPoolTaskExecutor  : Line No. 181 : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-10 15:45:35.393  INFO 8612 - o.s.b.d.a.OptionalLiveReloadServer       : Line No. 58 : LiveReload server is running on port 35729
+2021-04-10 15:45:35.532  INFO 8612 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Starting ProtocolHandler ["http-nio-30015"]
+2021-04-10 15:45:35.719  INFO 8612 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 220 : Tomcat started on port(s): 30015 (http) with context path ''
+2021-04-10 15:45:35.754  INFO 8612 - i.mozark.CommandFileExecutorApplication  : Line No. 61 : Started CommandFileExecutorApplication in 25.38 seconds (JVM running for 29.698)
+2021-04-10 15:46:11.920  INFO 8612 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-10 15:46:11.921  INFO 8612 - o.s.web.servlet.DispatcherServlet        : Line No. 525 : Initializing Servlet 'dispatcherServlet'
+2021-04-10 15:46:11.951  INFO 8612 - o.s.web.servlet.DispatcherServlet        : Line No. 547 : Completed initialization in 30 ms
+2021-04-10 15:46:16.333  INFO 8612 - in.mozark.controller.EventController     : Line No. 25 : uploadFilesFromTestId UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 15:46:16.338  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 35 : upload UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 15:46:17.622  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 39 : eventAttributeDto EventAttributeDto [fileType=null, fileName=null, testId=12345, command=null, deviceId=null, packageName=null] 
+2021-04-10 15:46:17.624  INFO 8612 - in.mozark.utils.UploadFileInfo           : Line No. 20 : propertiesFilename config/fileNameAndFileType.properties 
+2021-04-10 15:46:17.649  INFO 8612 - in.mozark.utils.UploadFileInfo           : Line No. 36 : key value pair read from property file {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 15:46:17.651  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 47 : fileNameAndFileType {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 15:46:18.820  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 71 : fileNameAndFileType {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 15:46:19.752  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 79 : fileName memory.csv 
+2021-04-10 15:46:19.753  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 82 : fileType device-resource.mem 
+2021-04-10 15:46:19.754  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 94 : uploadFileDto UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.mem, fileName=memory.csv, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=E:\file\12345\memory.csv, mozarkEventAttributeDto=null] 
+2021-04-10 15:46:22.031  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 29 : connectingUploadAPI UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.mem, fileName=memory.csv, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=E:\file\12345\memory.csv, mozarkEventAttributeDto=null] 
+2021-04-10 15:46:22.035  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 41 : request body {eventName=[Upload S3], file=[file [E:\file\12345\memory.csv]], eventAttributes=[EventAttributeDto [fileType=device-resource.mem, fileName=memory.csv, testId=12345, command=null, deviceId=null, packageName=null]], mozark.eventAttributes=[{}]} 
+2021-04-10 15:46:22.131  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 44 : mozarkUploadAPI https://api.mozark.ai/v1/uploadFiles 
+2021-04-10 15:46:24.618  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 56 : exception occurred while connecting to upload API 403 Forbidden: [{"message":"Missing Authentication Token"}] 
+2021-04-10 15:46:24.618  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 96 : uploadAPIResponse ResposeDto [responseMessage=exception occurred , responseCode=E1, responseDetails=null] 
+2021-04-10 15:46:26.065  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 79 : fileName battery.csv 
+2021-04-10 15:46:26.066  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 82 : fileType device-resource.battery 
+2021-04-10 15:46:26.067  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 94 : uploadFileDto UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.battery, fileName=battery.csv, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=E:\file\12345\battery.csv, mozarkEventAttributeDto=null] 
+2021-04-10 15:46:27.535  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 29 : connectingUploadAPI UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.battery, fileName=battery.csv, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=E:\file\12345\battery.csv, mozarkEventAttributeDto=null] 
+2021-04-10 15:46:27.538  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 41 : request body {eventName=[Upload S3], file=[file [E:\file\12345\battery.csv]], eventAttributes=[EventAttributeDto [fileType=device-resource.battery, fileName=battery.csv, testId=12345, command=null, deviceId=null, packageName=null]], mozark.eventAttributes=[{}]} 
+2021-04-10 15:46:27.553  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 44 : mozarkUploadAPI https://api.mozark.ai/v1/uploadFiles 
+2021-04-10 15:46:27.635  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 56 : exception occurred while connecting to upload API 403 Forbidden: [{"message":"Missing Authentication Token"}] 
+2021-04-10 15:46:27.635  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 96 : uploadAPIResponse ResposeDto [responseMessage=exception occurred , responseCode=E1, responseDetails=null] 
+2021-04-10 15:46:35.267  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 79 : fileName cpu.csv 
+2021-04-10 15:46:35.270  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 82 : fileType device-resource.cpu 
+2021-04-10 15:46:35.271  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 94 : uploadFileDto UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.cpu, fileName=cpu.csv, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=E:\file\12345\cpu.csv, mozarkEventAttributeDto=null] 
+2021-04-10 15:46:39.481  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 29 : connectingUploadAPI UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.cpu, fileName=cpu.csv, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=E:\file\12345\cpu.csv, mozarkEventAttributeDto=null] 
+2021-04-10 15:46:39.483  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 41 : request body {eventName=[Upload S3], file=[file [E:\file\12345\cpu.csv]], eventAttributes=[EventAttributeDto [fileType=device-resource.cpu, fileName=cpu.csv, testId=12345, command=null, deviceId=null, packageName=null]], mozark.eventAttributes=[{}]} 
+2021-04-10 15:46:39.498  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 44 : mozarkUploadAPI https://api.mozark.ai/v1/uploadFiles 
+2021-04-10 15:46:39.897  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 56 : exception occurred while connecting to upload API 403 Forbidden: [{"message":"Missing Authentication Token"}] 
+2021-04-10 15:46:39.898  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 96 : uploadAPIResponse ResposeDto [responseMessage=exception occurred , responseCode=E1, responseDetails=null] 
+2021-04-10 15:46:39.899  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 51 : uploadResponse {} 
+2021-04-10 15:51:53.731  INFO 8612 - o.s.s.concurrent.ThreadPoolTaskExecutor  : Line No. 218 : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-10 15:51:54.337  INFO 8612 - i.mozark.CommandFileExecutorApplication  : Line No. 55 : Starting CommandFileExecutorApplication on DESKTOP-8D58F7H with PID 8612 (E:\mozark-workspace\command-file-executor\bin\main started by Ankur Mishra in E:\mozark-workspace\command-file-executor)
+2021-04-10 15:51:54.337  INFO 8612 - i.mozark.CommandFileExecutorApplication  : Line No. 651 : No active profile set, falling back to default profiles: default
+2021-04-10 15:51:55.854  INFO 8612 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 108 : Tomcat initialized with port(s): 30015 (http)
+2021-04-10 15:51:55.855  INFO 8612 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Initializing ProtocolHandler ["http-nio-30015"]
+2021-04-10 15:51:55.855  INFO 8612 - o.apache.catalina.core.StandardService   : Line No. 173 : Starting service [Tomcat]
+2021-04-10 15:51:55.856  INFO 8612 - org.apache.catalina.core.StandardEngine  : Line No. 173 : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-10 15:51:56.342  INFO 8612 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring embedded WebApplicationContext
+2021-04-10 15:51:56.343  INFO 8612 - w.s.c.ServletWebServerApplicationContext : Line No. 285 : Root WebApplicationContext: initialization completed in 1998 ms
+2021-04-10 15:51:56.676  INFO 8612 - o.s.s.concurrent.ThreadPoolTaskExecutor  : Line No. 181 : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-10 15:51:57.063  INFO 8612 - o.s.b.d.a.OptionalLiveReloadServer       : Line No. 58 : LiveReload server is running on port 35729
+2021-04-10 15:51:57.125  INFO 8612 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Starting ProtocolHandler ["http-nio-30015"]
+2021-04-10 15:51:57.136  INFO 8612 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 220 : Tomcat started on port(s): 30015 (http) with context path ''
+2021-04-10 15:51:57.148  INFO 8612 - i.mozark.CommandFileExecutorApplication  : Line No. 61 : Started CommandFileExecutorApplication in 3.0 seconds (JVM running for 411.093)
+2021-04-10 15:51:57.158  INFO 8612 - .ConditionEvaluationDeltaLoggingListener : Line No. 63 : Condition evaluation unchanged
+2021-04-10 15:52:35.366  INFO 8612 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-10 15:52:35.367  INFO 8612 - o.s.web.servlet.DispatcherServlet        : Line No. 525 : Initializing Servlet 'dispatcherServlet'
+2021-04-10 15:52:35.372  INFO 8612 - o.s.web.servlet.DispatcherServlet        : Line No. 547 : Completed initialization in 4 ms
+2021-04-10 15:52:35.394  INFO 8612 - in.mozark.controller.EventController     : Line No. 25 : uploadFilesFromTestId UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 15:52:35.395  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 35 : upload UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 15:52:35.399  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 39 : eventAttributeDto EventAttributeDto [fileType=null, fileName=null, testId=12345, command=null, deviceId=null, packageName=null] 
+2021-04-10 15:52:35.426  INFO 8612 - in.mozark.utils.UploadFileInfo           : Line No. 20 : propertiesFilename config/fileNameAndFileType.properties 
+2021-04-10 15:52:35.475  INFO 8612 - in.mozark.utils.UploadFileInfo           : Line No. 36 : key value pair read from property file {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 15:52:35.476  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 47 : fileNameAndFileType {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 15:52:35.571  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 71 : fileNameAndFileType {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 15:52:35.573  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 79 : fileName memory.csv 
+2021-04-10 15:52:35.574  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 82 : fileType device-resource.mem 
+2021-04-10 15:52:35.574  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 94 : uploadFileDto UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.mem, fileName=memory.csv, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=E:\file\12345\memory.csv, mozarkEventAttributeDto=null] 
+2021-04-10 15:52:35.575  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 29 : connectingUploadAPI UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.mem, fileName=memory.csv, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=E:\file\12345\memory.csv, mozarkEventAttributeDto=null] 
+2021-04-10 15:52:35.577  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 41 : request body {eventName=[Upload S3], file=[file [E:\file\12345\memory.csv]], eventAttributes=[EventAttributeDto [fileType=device-resource.mem, fileName=memory.csv, testId=12345, command=null, deviceId=null, packageName=null]], mozark.eventAttributes=[{}]} 
+2021-04-10 15:52:35.586  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 44 : mozarkUploadAPI https://api.mozark.ai/v1/uploadFiles 
+2021-04-10 15:52:35.782  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 56 : exception occurred while connecting to upload API 403 Forbidden: [{"message":"Missing Authentication Token"}] 
+2021-04-10 15:52:35.783  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 96 : uploadAPIResponse ResposeDto [responseMessage=exception occurred , responseCode=E1, responseDetails=null] 
+2021-04-10 15:52:35.788  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 79 : fileName battery.csv 
+2021-04-10 15:52:35.790  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 82 : fileType device-resource.battery 
+2021-04-10 15:52:35.790  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 94 : uploadFileDto UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.battery, fileName=battery.csv, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=E:\file\12345\battery.csv, mozarkEventAttributeDto=null] 
+2021-04-10 15:52:35.791  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 29 : connectingUploadAPI UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.battery, fileName=battery.csv, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=E:\file\12345\battery.csv, mozarkEventAttributeDto=null] 
+2021-04-10 15:52:35.791  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 41 : request body {eventName=[Upload S3], file=[file [E:\file\12345\battery.csv]], eventAttributes=[EventAttributeDto [fileType=device-resource.battery, fileName=battery.csv, testId=12345, command=null, deviceId=null, packageName=null]], mozark.eventAttributes=[{}]} 
+2021-04-10 15:52:35.795  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 44 : mozarkUploadAPI https://api.mozark.ai/v1/uploadFiles 
+2021-04-10 15:52:35.959  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 56 : exception occurred while connecting to upload API 403 Forbidden: [{"message":"Missing Authentication Token"}] 
+2021-04-10 15:52:35.959  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 96 : uploadAPIResponse ResposeDto [responseMessage=exception occurred , responseCode=E1, responseDetails=null] 
+2021-04-10 15:52:35.962  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 79 : fileName cpu.csv 
+2021-04-10 15:52:35.963  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 82 : fileType device-resource.cpu 
+2021-04-10 15:52:35.964  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 94 : uploadFileDto UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.cpu, fileName=cpu.csv, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=E:\file\12345\cpu.csv, mozarkEventAttributeDto=null] 
+2021-04-10 15:52:35.965  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 29 : connectingUploadAPI UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.cpu, fileName=cpu.csv, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=E:\file\12345\cpu.csv, mozarkEventAttributeDto=null] 
+2021-04-10 15:52:35.966  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 41 : request body {eventName=[Upload S3], file=[file [E:\file\12345\cpu.csv]], eventAttributes=[EventAttributeDto [fileType=device-resource.cpu, fileName=cpu.csv, testId=12345, command=null, deviceId=null, packageName=null]], mozark.eventAttributes=[{}]} 
+2021-04-10 15:52:35.973  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 44 : mozarkUploadAPI https://api.mozark.ai/v1/uploadFiles 
+2021-04-10 15:52:36.041  INFO 8612 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 56 : exception occurred while connecting to upload API 403 Forbidden: [{"message":"Missing Authentication Token"}] 
+2021-04-10 15:52:36.042  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 96 : uploadAPIResponse ResposeDto [responseMessage=exception occurred , responseCode=E1, responseDetails=null] 
+2021-04-10 15:52:36.042  INFO 8612 - in.mozark.service.impl.EventServiceImpl  : Line No. 51 : uploadResponse {} 
+2021-04-10 15:53:47.481  INFO 12780 - o.h.validator.internal.util.Version      : Line No. 21 : HV000001: Hibernate Validator 6.1.7.Final
+2021-04-10 15:53:47.721  INFO 12780 - i.mozark.CommandFileExecutorApplication  : Line No. 55 : Starting CommandFileExecutorApplication on DESKTOP-8D58F7H with PID 12780 (E:\mozark-workspace\command-file-executor\bin\main started by Ankur Mishra in E:\mozark-workspace\command-file-executor)
+2021-04-10 15:53:47.738  INFO 12780 - i.mozark.CommandFileExecutorApplication  : Line No. 651 : No active profile set, falling back to default profiles: default
+2021-04-10 15:53:48.146  INFO 12780 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-10 15:53:48.147  INFO 12780 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-10 15:53:56.602  INFO 12780 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 108 : Tomcat initialized with port(s): 30015 (http)
+2021-04-10 15:53:56.667  INFO 12780 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Initializing ProtocolHandler ["http-nio-30015"]
+2021-04-10 15:53:56.673  INFO 12780 - o.apache.catalina.core.StandardService   : Line No. 173 : Starting service [Tomcat]
+2021-04-10 15:53:56.675  INFO 12780 - org.apache.catalina.core.StandardEngine  : Line No. 173 : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-10 15:53:56.987  INFO 12780 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring embedded WebApplicationContext
+2021-04-10 15:53:56.990  INFO 12780 - w.s.c.ServletWebServerApplicationContext : Line No. 285 : Root WebApplicationContext: initialization completed in 8837 ms
+2021-04-10 15:53:58.383  INFO 12780 - o.s.s.concurrent.ThreadPoolTaskExecutor  : Line No. 181 : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-10 15:53:59.321  INFO 12780 - o.s.b.d.a.OptionalLiveReloadServer       : Line No. 58 : LiveReload server is running on port 35729
+2021-04-10 15:53:59.388  INFO 12780 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Starting ProtocolHandler ["http-nio-30015"]
+2021-04-10 15:53:59.738  INFO 12780 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 220 : Tomcat started on port(s): 30015 (http) with context path ''
+2021-04-10 15:53:59.898  INFO 12780 - i.mozark.CommandFileExecutorApplication  : Line No. 61 : Started CommandFileExecutorApplication in 17.056 seconds (JVM running for 22.253)
+2021-04-10 15:54:08.367  INFO 12780 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-10 15:54:08.368  INFO 12780 - o.s.web.servlet.DispatcherServlet        : Line No. 525 : Initializing Servlet 'dispatcherServlet'
+2021-04-10 15:54:08.404  INFO 12780 - o.s.web.servlet.DispatcherServlet        : Line No. 547 : Completed initialization in 33 ms
+2021-04-10 15:54:08.928  INFO 12780 - in.mozark.controller.EventController     : Line No. 25 : uploadFilesFromTestId UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 15:54:08.933  INFO 12780 - in.mozark.service.impl.EventServiceImpl  : Line No. 35 : upload UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 15:54:08.933  INFO 12780 - in.mozark.service.impl.EventServiceImpl  : Line No. 39 : eventAttributeDto EventAttributeDto [fileType=null, fileName=null, testId=12345, command=null, deviceId=null, packageName=null] 
+2021-04-10 15:54:08.935  INFO 12780 - in.mozark.utils.UploadFileInfo           : Line No. 20 : propertiesFilename config/fileNameAndFileType.properties 
+2021-04-10 15:54:08.957  INFO 12780 - in.mozark.utils.UploadFileInfo           : Line No. 36 : key value pair read from property file {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 15:54:08.959  INFO 12780 - in.mozark.service.impl.EventServiceImpl  : Line No. 47 : fileNameAndFileType {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 15:54:08.960  INFO 12780 - in.mozark.service.impl.EventServiceImpl  : Line No. 71 : fileNameAndFileType {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 15:54:08.961  INFO 12780 - in.mozark.service.impl.EventServiceImpl  : Line No. 79 : fileName memory.csv 
+2021-04-10 15:54:08.961  INFO 12780 - in.mozark.service.impl.EventServiceImpl  : Line No. 82 : fileType device-resource.mem 
+2021-04-10 15:54:08.962  INFO 12780 - in.mozark.service.impl.EventServiceImpl  : Line No. 94 : uploadFileDto UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.mem, fileName=memory.csv, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=E:\file\12345\memory.csv, mozarkEventAttributeDto=null] 
+2021-04-10 15:54:08.962  INFO 12780 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 29 : connectingUploadAPI UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.mem, fileName=memory.csv, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=E:\file\12345\memory.csv, mozarkEventAttributeDto=null] 
+2021-04-10 15:54:08.965  INFO 12780 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 41 : request body {eventName=[Upload S3], file=[file [E:\file\12345\memory.csv]], eventAttributes=[EventAttributeDto [fileType=device-resource.mem, fileName=memory.csv, testId=12345, command=null, deviceId=null, packageName=null]], mozark.eventAttributes=[{}]} 
+2021-04-10 15:54:18.985  INFO 12780 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 44 : mozarkUploadAPI https://api.mozark.ai/v1/uploadFiles 
+2021-04-10 15:58:55.655  INFO 9400 - o.h.validator.internal.util.Version      : Line No. 21 : HV000001: Hibernate Validator 6.1.7.Final
+2021-04-10 15:58:55.786  INFO 9400 - i.mozark.CommandFileExecutorApplication  : Line No. 55 : Starting CommandFileExecutorApplication on DESKTOP-8D58F7H with PID 9400 (E:\mozark-workspace\command-file-executor\bin\main started by Ankur Mishra in E:\mozark-workspace\command-file-executor)
+2021-04-10 15:58:55.788  INFO 9400 - i.mozark.CommandFileExecutorApplication  : Line No. 651 : No active profile set, falling back to default profiles: default
+2021-04-10 15:58:56.048  INFO 9400 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-10 15:58:56.051  INFO 9400 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-10 15:59:06.012  INFO 9400 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 108 : Tomcat initialized with port(s): 30015 (http)
+2021-04-10 15:59:06.075  INFO 9400 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Initializing ProtocolHandler ["http-nio-30015"]
+2021-04-10 15:59:06.085  INFO 9400 - o.apache.catalina.core.StandardService   : Line No. 173 : Starting service [Tomcat]
+2021-04-10 15:59:06.086  INFO 9400 - org.apache.catalina.core.StandardEngine  : Line No. 173 : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-10 15:59:06.375  INFO 9400 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring embedded WebApplicationContext
+2021-04-10 15:59:06.376  INFO 9400 - w.s.c.ServletWebServerApplicationContext : Line No. 285 : Root WebApplicationContext: initialization completed in 10324 ms
+2021-04-10 15:59:07.572  INFO 9400 - o.s.s.concurrent.ThreadPoolTaskExecutor  : Line No. 181 : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-10 15:59:08.343  INFO 9400 - o.s.b.d.a.OptionalLiveReloadServer       : Line No. 58 : LiveReload server is running on port 35729
+2021-04-10 15:59:08.434  INFO 9400 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Starting ProtocolHandler ["http-nio-30015"]
+2021-04-10 15:59:08.718  INFO 9400 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 220 : Tomcat started on port(s): 30015 (http) with context path ''
+2021-04-10 15:59:08.773  INFO 9400 - i.mozark.CommandFileExecutorApplication  : Line No. 61 : Started CommandFileExecutorApplication in 14.677 seconds (JVM running for 19.22)
+2021-04-10 15:59:18.481  INFO 9400 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-10 15:59:18.482  INFO 9400 - o.s.web.servlet.DispatcherServlet        : Line No. 525 : Initializing Servlet 'dispatcherServlet'
+2021-04-10 15:59:18.502  INFO 9400 - o.s.web.servlet.DispatcherServlet        : Line No. 547 : Completed initialization in 20 ms
+2021-04-10 15:59:18.879  INFO 9400 - in.mozark.controller.EventController     : Line No. 25 : uploadFilesFromTestId UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 15:59:18.881  INFO 9400 - in.mozark.service.impl.EventServiceImpl  : Line No. 35 : upload UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 15:59:18.883  INFO 9400 - in.mozark.service.impl.EventServiceImpl  : Line No. 39 : eventAttributeDto EventAttributeDto [fileType=null, fileName=null, testId=12345, command=null, deviceId=null, packageName=null] 
+2021-04-10 15:59:18.886  INFO 9400 - in.mozark.utils.UploadFileInfo           : Line No. 20 : propertiesFilename config/fileNameAndFileType.properties 
+2021-04-10 15:59:18.915  INFO 9400 - in.mozark.utils.UploadFileInfo           : Line No. 36 : key value pair read from property file {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 15:59:18.916  INFO 9400 - in.mozark.service.impl.EventServiceImpl  : Line No. 47 : fileNameAndFileType {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 15:59:18.916  INFO 9400 - in.mozark.service.impl.EventServiceImpl  : Line No. 71 : fileNameAndFileType {frames.csv=device-resource.frames, memory.csv=device-resource.mem, battery.csv=device-resource.battery, cpu.csv=device-resource.cpu, har.har=device-resource.har, heap-memory.csv=device-resource.heap-mem} 
+2021-04-10 15:59:18.918  INFO 9400 - in.mozark.service.impl.EventServiceImpl  : Line No. 79 : fileName memory.csv 
+2021-04-10 15:59:18.918  INFO 9400 - in.mozark.service.impl.EventServiceImpl  : Line No. 82 : fileType device-resource.mem 
+2021-04-10 15:59:18.920  INFO 9400 - in.mozark.service.impl.EventServiceImpl  : Line No. 94 : uploadFileDto UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.mem, fileName=memory.csv, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=E:\file\12345\memory.csv, mozarkEventAttributeDto=null] 
+2021-04-10 15:59:18.921  INFO 9400 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 29 : connectingUploadAPI UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.mem, fileName=memory.csv, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=E:\file\12345\memory.csv, mozarkEventAttributeDto=null] 
+2021-04-10 15:59:18.923  INFO 9400 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 41 : request body {eventName=[Upload S3], file=[file [E:\file\12345\memory.csv]], eventAttributes=[EventAttributeDto [fileType=device-resource.mem, fileName=memory.csv, testId=12345, command=null, deviceId=null, packageName=null]], mozark.eventAttributes=[{}]} 
+2021-04-10 15:59:27.235  INFO 9400 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 44 : mozarkUploadAPI https://api.mozark.ai/v1/uploadFiles 
+2021-04-10 16:00:13.788  INFO 9400 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 46 : Response From Upload API: File uploaded successfully!
+2021-04-10 16:00:13.790  INFO 9400 - in.mozark.service.impl.EventServiceImpl  : Line No. 96 : uploadAPIResponse ResposeDto [responseMessage=sucess, responseCode=00, responseDetails=null] 
+2021-04-10 16:00:13.792  INFO 9400 - in.mozark.service.impl.EventServiceImpl  : Line No. 101 : file deleted successfully 
+2021-04-10 16:00:13.793  INFO 9400 - in.mozark.service.impl.EventServiceImpl  : Line No. 79 : fileName battery.csv 
+2021-04-10 16:00:13.794  INFO 9400 - in.mozark.service.impl.EventServiceImpl  : Line No. 82 : fileType device-resource.battery 
+2021-04-10 16:00:13.795  INFO 9400 - in.mozark.service.impl.EventServiceImpl  : Line No. 94 : uploadFileDto UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.battery, fileName=battery.csv, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=E:\file\12345\battery.csv, mozarkEventAttributeDto=null] 
+2021-04-10 16:00:13.797  INFO 9400 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 29 : connectingUploadAPI UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.battery, fileName=battery.csv, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=E:\file\12345\battery.csv, mozarkEventAttributeDto=null] 
+2021-04-10 16:00:13.798  INFO 9400 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 41 : request body {eventName=[Upload S3], file=[file [E:\file\12345\battery.csv]], eventAttributes=[EventAttributeDto [fileType=device-resource.battery, fileName=battery.csv, testId=12345, command=null, deviceId=null, packageName=null]], mozark.eventAttributes=[{}]} 
+2021-04-10 16:00:16.415  INFO 9400 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 44 : mozarkUploadAPI https://api.mozark.ai/v1/uploadFiles 
+2021-04-10 16:00:17.101  INFO 9400 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 46 : Response From Upload API: File uploaded successfully!
+2021-04-10 16:00:17.102  INFO 9400 - in.mozark.service.impl.EventServiceImpl  : Line No. 96 : uploadAPIResponse ResposeDto [responseMessage=sucess, responseCode=00, responseDetails=null] 
+2021-04-10 16:00:17.104  INFO 9400 - in.mozark.service.impl.EventServiceImpl  : Line No. 101 : file deleted successfully 
+2021-04-10 16:00:17.104  INFO 9400 - in.mozark.service.impl.EventServiceImpl  : Line No. 79 : fileName cpu.csv 
+2021-04-10 16:00:17.105  INFO 9400 - in.mozark.service.impl.EventServiceImpl  : Line No. 82 : fileType device-resource.cpu 
+2021-04-10 16:00:17.106  INFO 9400 - in.mozark.service.impl.EventServiceImpl  : Line No. 94 : uploadFileDto UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.cpu, fileName=cpu.csv, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=E:\file\12345\cpu.csv, mozarkEventAttributeDto=null] 
+2021-04-10 16:00:17.106  INFO 9400 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 29 : connectingUploadAPI UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=device-resource.cpu, fileName=cpu.csv, testId=12345, command=null, deviceId=null, packageName=null], eventName=Upload S3, fileData=E:\file\12345\cpu.csv, mozarkEventAttributeDto=null] 
+2021-04-10 16:00:17.107  INFO 9400 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 41 : request body {eventName=[Upload S3], file=[file [E:\file\12345\cpu.csv]], eventAttributes=[EventAttributeDto [fileType=device-resource.cpu, fileName=cpu.csv, testId=12345, command=null, deviceId=null, packageName=null]], mozark.eventAttributes=[{}]} 
+2021-04-10 16:00:17.116  INFO 9400 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 44 : mozarkUploadAPI https://api.mozark.ai/v1/uploadFiles 
+2021-04-10 16:00:17.562  INFO 9400 - in.mozark.utils.ConnectingMozarkAPI      : Line No. 46 : Response From Upload API: File uploaded successfully!
+2021-04-10 16:00:17.562  INFO 9400 - in.mozark.service.impl.EventServiceImpl  : Line No. 96 : uploadAPIResponse ResposeDto [responseMessage=sucess, responseCode=00, responseDetails=null] 
+2021-04-10 16:00:17.563  INFO 9400 - in.mozark.service.impl.EventServiceImpl  : Line No. 101 : file deleted successfully 
+2021-04-10 16:00:17.564  INFO 9400 - in.mozark.service.impl.EventServiceImpl  : Line No. 51 : uploadResponse {memory.csv=ResposeDto [responseMessage=sucess, responseCode=00, responseDetails=null], battery.csv=ResposeDto [responseMessage=sucess, responseCode=00, responseDetails=null], cpu.csv=ResposeDto [responseMessage=sucess, responseCode=00, responseDetails=null]} 
+2021-04-10 16:17:08.331  INFO 9400 - o.s.s.concurrent.ThreadPoolTaskExecutor  : Line No. 218 : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-10 16:17:26.202  INFO 9400 - i.mozark.CommandFileExecutorApplication  : Line No. 55 : Starting CommandFileExecutorApplication on DESKTOP-8D58F7H with PID 9400 (E:\mozark-workspace\command-file-executor\bin\main started by Ankur Mishra in E:\mozark-workspace\command-file-executor)
+2021-04-10 16:17:26.203  INFO 9400 - i.mozark.CommandFileExecutorApplication  : Line No. 651 : No active profile set, falling back to default profiles: default
+2021-04-10 16:17:51.886  INFO 9400 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 108 : Tomcat initialized with port(s): 30015 (http)
+2021-04-10 16:17:51.897  INFO 9400 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Initializing ProtocolHandler ["http-nio-30015"]
+2021-04-10 16:17:51.897  INFO 9400 - o.apache.catalina.core.StandardService   : Line No. 173 : Starting service [Tomcat]
+2021-04-10 16:17:51.898  INFO 9400 - org.apache.catalina.core.StandardEngine  : Line No. 173 : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-10 16:17:52.541  INFO 9400 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring embedded WebApplicationContext
+2021-04-10 16:17:52.541  INFO 9400 - w.s.c.ServletWebServerApplicationContext : Line No. 285 : Root WebApplicationContext: initialization completed in 26097 ms
+2021-04-10 16:17:54.648  INFO 9400 - o.s.s.concurrent.ThreadPoolTaskExecutor  : Line No. 181 : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-10 16:17:55.495  INFO 9400 - o.s.b.d.a.OptionalLiveReloadServer       : Line No. 58 : LiveReload server is running on port 35729
+2021-04-10 16:17:55.542  INFO 9400 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Starting ProtocolHandler ["http-nio-30015"]
+2021-04-10 16:17:55.680  INFO 9400 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 220 : Tomcat started on port(s): 30015 (http) with context path ''
+2021-04-10 16:17:56.030  INFO 9400 - i.mozark.CommandFileExecutorApplication  : Line No. 61 : Started CommandFileExecutorApplication in 31.043 seconds (JVM running for 1146.477)
+2021-04-10 16:17:56.036  INFO 9400 - .ConditionEvaluationDeltaLoggingListener : Line No. 63 : Condition evaluation unchanged
+2021-04-10 17:56:54.433  INFO 3256 - o.h.validator.internal.util.Version      : Line No. 21 : HV000001: Hibernate Validator 6.1.7.Final
+2021-04-10 17:56:55.200  INFO 3256 - i.mozark.CommandFileExecutorApplication  : Line No. 55 : Starting CommandFileExecutorApplication on DESKTOP-8D58F7H with PID 3256 (E:\mozark-workspace\command-file-executor\bin\main started by Ankur Mishra in E:\mozark-workspace\command-file-executor)
+2021-04-10 17:56:55.203  INFO 3256 - i.mozark.CommandFileExecutorApplication  : Line No. 651 : No active profile set, falling back to default profiles: default
+2021-04-10 17:56:56.084  INFO 3256 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-10 17:56:56.085  INFO 3256 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-10 17:57:18.660  INFO 3256 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 108 : Tomcat initialized with port(s): 30015 (http)
+2021-04-10 17:57:18.925  INFO 3256 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Initializing ProtocolHandler ["http-nio-30015"]
+2021-04-10 17:57:18.960  INFO 3256 - o.apache.catalina.core.StandardService   : Line No. 173 : Starting service [Tomcat]
+2021-04-10 17:57:18.961  INFO 3256 - org.apache.catalina.core.StandardEngine  : Line No. 173 : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-10 17:57:19.885  INFO 3256 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring embedded WebApplicationContext
+2021-04-10 17:57:19.887  INFO 3256 - w.s.c.ServletWebServerApplicationContext : Line No. 285 : Root WebApplicationContext: initialization completed in 23801 ms
+2021-04-10 17:57:21.148  INFO 3256 - o.s.s.concurrent.ThreadPoolTaskExecutor  : Line No. 181 : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-10 17:57:22.798  INFO 3256 - o.s.b.d.a.OptionalLiveReloadServer       : Line No. 58 : LiveReload server is running on port 35729
+2021-04-10 17:57:22.879  INFO 3256 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Starting ProtocolHandler ["http-nio-30015"]
+2021-04-10 17:57:23.506  INFO 3256 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 220 : Tomcat started on port(s): 30015 (http) with context path ''
+2021-04-10 17:57:23.586  INFO 3256 - i.mozark.CommandFileExecutorApplication  : Line No. 61 : Started CommandFileExecutorApplication in 32.894 seconds (JVM running for 38.693)
+2021-04-10 18:13:37.891  INFO 8892 - o.h.validator.internal.util.Version      : Line No. 21 : HV000001: Hibernate Validator 6.1.7.Final
+2021-04-10 18:13:38.164  INFO 8892 - i.mozark.CommandFileExecutorApplication  : Line No. 55 : Starting CommandFileExecutorApplication on DESKTOP-8D58F7H with PID 8892 (E:\mozark-workspace\command-file-executor\bin\main started by Ankur Mishra in E:\mozark-workspace\command-file-executor)
+2021-04-10 18:13:38.168  INFO 8892 - i.mozark.CommandFileExecutorApplication  : Line No. 651 : No active profile set, falling back to default profiles: default
+2021-04-10 18:13:38.509  INFO 8892 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-10 18:13:38.511  INFO 8892 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-10 18:14:02.630  INFO 8892 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 108 : Tomcat initialized with port(s): 30015 (http)
+2021-04-10 18:14:02.693  INFO 8892 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Initializing ProtocolHandler ["http-nio-30015"]
+2021-04-10 18:14:02.714  INFO 8892 - o.apache.catalina.core.StandardService   : Line No. 173 : Starting service [Tomcat]
+2021-04-10 18:14:02.715  INFO 8892 - org.apache.catalina.core.StandardEngine  : Line No. 173 : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-10 18:14:03.245  INFO 8892 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring embedded WebApplicationContext
+2021-04-10 18:14:03.246  INFO 8892 - w.s.c.ServletWebServerApplicationContext : Line No. 285 : Root WebApplicationContext: initialization completed in 24733 ms
+2021-04-10 18:14:06.377  INFO 8892 - o.s.s.concurrent.ThreadPoolTaskExecutor  : Line No. 181 : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-10 18:14:08.382  INFO 8892 - o.s.b.d.a.OptionalLiveReloadServer       : Line No. 58 : LiveReload server is running on port 35729
+2021-04-10 18:14:08.551  INFO 8892 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Starting ProtocolHandler ["http-nio-30015"]
+2021-04-10 18:14:10.282  INFO 8892 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 220 : Tomcat started on port(s): 30015 (http) with context path ''
+2021-04-10 18:14:10.574  INFO 8892 - i.mozark.CommandFileExecutorApplication  : Line No. 61 : Started CommandFileExecutorApplication in 35.208 seconds (JVM running for 41.082)
+2021-04-10 18:16:32.685  INFO 8892 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-10 18:16:32.685  INFO 8892 - o.s.web.servlet.DispatcherServlet        : Line No. 525 : Initializing Servlet 'dispatcherServlet'
+2021-04-10 18:16:32.736  INFO 8892 - o.s.web.servlet.DispatcherServlet        : Line No. 547 : Completed initialization in 50 ms
+2021-04-10 18:16:36.878  INFO 8892 - in.mozark.controller.EventController     : Line No. 31 : executeGivenCommand UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345, command=ls -al, deviceId=xyz, packageName=com.sonyliv, action=start], eventName=Command Execute, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 18:16:41.622  INFO 8892 - in.mozark.service.impl.EventServiceImpl  : Line No. 136 : uploadFileDto UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345, command=ls -al, deviceId=xyz, packageName=com.sonyliv, action=start], eventName=Command Execute, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 18:16:47.349  INFO 8892 - in.mozark.service.impl.EventServiceImpl  : Line No. 140 : eventAttributeDto EventAttributeDto [fileType=null, fileName=null, testId=12345, command=ls -al, deviceId=xyz, packageName=com.sonyliv, action=start] 
+2021-04-10 18:17:20.683  INFO 8892 - in.mozark.service.impl.EventServiceImpl  : Line No. 235 : exception occurred in - 
+2021-04-10 18:17:34.390  INFO 8892 - in.mozark.controller.EventController     : Line No. 31 : executeGivenCommand UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345, command=ls, deviceId=xyz, packageName=com.sonyliv, action=start], eventName=Command Execute, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 18:17:36.401  INFO 8892 - in.mozark.service.impl.EventServiceImpl  : Line No. 136 : uploadFileDto UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345, command=ls, deviceId=xyz, packageName=com.sonyliv, action=start], eventName=Command Execute, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 18:17:42.905  INFO 8892 - in.mozark.service.impl.EventServiceImpl  : Line No. 140 : eventAttributeDto EventAttributeDto [fileType=null, fileName=null, testId=12345, command=ls, deviceId=xyz, packageName=com.sonyliv, action=start] 
+2021-04-10 18:18:08.371  INFO 8892 - in.mozark.service.impl.EventServiceImpl  : Line No. 235 : exception occurred in - 
+2021-04-10 18:18:43.729  INFO 8892 - o.s.s.concurrent.ThreadPoolTaskExecutor  : Line No. 218 : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-10 18:18:45.647  INFO 8892 - i.mozark.CommandFileExecutorApplication  : Line No. 55 : Starting CommandFileExecutorApplication on DESKTOP-8D58F7H with PID 8892 (E:\mozark-workspace\command-file-executor\bin\main started by Ankur Mishra in E:\mozark-workspace\command-file-executor)
+2021-04-10 18:18:45.648  INFO 8892 - i.mozark.CommandFileExecutorApplication  : Line No. 651 : No active profile set, falling back to default profiles: default
+2021-04-10 18:19:06.985  INFO 2588 - o.h.validator.internal.util.Version      : Line No. 21 : HV000001: Hibernate Validator 6.1.7.Final
+2021-04-10 18:19:07.230  INFO 2588 - i.mozark.CommandFileExecutorApplication  : Line No. 55 : Starting CommandFileExecutorApplication on DESKTOP-8D58F7H with PID 2588 (E:\mozark-workspace\command-file-executor\bin\main started by Ankur Mishra in E:\mozark-workspace\command-file-executor)
+2021-04-10 18:19:07.234  INFO 2588 - i.mozark.CommandFileExecutorApplication  : Line No. 651 : No active profile set, falling back to default profiles: default
+2021-04-10 18:19:07.565  INFO 2588 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-10 18:19:07.567  INFO 2588 - .e.DevToolsPropertyDefaultsPostProcessor : Line No. 225 : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-10 18:19:11.643  INFO 2588 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 108 : Tomcat initialized with port(s): 30015 (http)
+2021-04-10 18:19:11.671  INFO 2588 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Initializing ProtocolHandler ["http-nio-30015"]
+2021-04-10 18:19:11.673  INFO 2588 - o.apache.catalina.core.StandardService   : Line No. 173 : Starting service [Tomcat]
+2021-04-10 18:19:11.673  INFO 2588 - org.apache.catalina.core.StandardEngine  : Line No. 173 : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-10 18:19:11.934  INFO 2588 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring embedded WebApplicationContext
+2021-04-10 18:19:11.936  INFO 2588 - w.s.c.ServletWebServerApplicationContext : Line No. 285 : Root WebApplicationContext: initialization completed in 4368 ms
+2021-04-10 18:19:15.272  INFO 2588 - o.s.s.concurrent.ThreadPoolTaskExecutor  : Line No. 181 : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-10 18:19:15.777  INFO 2588 - o.s.b.d.a.OptionalLiveReloadServer       : Line No. 58 : LiveReload server is running on port 35729
+2021-04-10 18:19:15.842  INFO 2588 - o.a.coyote.http11.Http11NioProtocol      : Line No. 173 : Starting ProtocolHandler ["http-nio-30015"]
+2021-04-10 18:19:15.922  INFO 2588 - o.s.b.w.embedded.tomcat.TomcatWebServer  : Line No. 220 : Tomcat started on port(s): 30015 (http) with context path ''
+2021-04-10 18:19:15.973  INFO 2588 - i.mozark.CommandFileExecutorApplication  : Line No. 61 : Started CommandFileExecutorApplication in 10.224 seconds (JVM running for 13.012)
+2021-04-10 18:19:24.848  INFO 2588 - o.a.c.c.C.[Tomcat].[localhost].[/]       : Line No. 173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-10 18:19:24.849  INFO 2588 - o.s.web.servlet.DispatcherServlet        : Line No. 525 : Initializing Servlet 'dispatcherServlet'
+2021-04-10 18:19:24.872  INFO 2588 - o.s.web.servlet.DispatcherServlet        : Line No. 547 : Completed initialization in 21 ms
+2021-04-10 18:19:27.801  INFO 2588 - in.mozark.controller.EventController     : Line No. 31 : executeGivenCommand UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345, command=ls -al, deviceId=xyz, packageName=com.sonyliv, action=start], eventName=Command Execute, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 18:19:30.876  INFO 2588 - in.mozark.service.impl.EventServiceImpl  : Line No. 136 : uploadFileDto UploadFileDto [eventAttributeDto=EventAttributeDto [fileType=null, fileName=null, testId=12345, command=ls -al, deviceId=xyz, packageName=com.sonyliv, action=start], eventName=Command Execute, fileData=null, mozarkEventAttributeDto=MozarkEventAttributeDto [deviceMake=null, deviceModel=null, applicationName=null]] 
+2021-04-10 18:19:36.067  INFO 2588 - in.mozark.service.impl.EventServiceImpl  : Line No. 140 : eventAttributeDto EventAttributeDto [fileType=null, fileName=null, testId=12345, command=ls -al, deviceId=xyz, packageName=com.sonyliv, action=start] 
+2021-04-10 18:19:58.172  INFO 2588 - in.mozark.service.impl.EventServiceImpl  : Line No. 235 : exception occurred in - 
