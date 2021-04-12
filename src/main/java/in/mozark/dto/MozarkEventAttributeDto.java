@@ -12,40 +12,19 @@ public class MozarkEventAttributeDto implements Serializable {
 
 	private static final long serialVersionUID = -7192050584035003289L;
 
-	private String deviceMake;
-	private String deviceModel;
-	private String applicationName;
+	private String userId;
 
-	public String getDeviceMake() {
-		return deviceMake;
+	public String getUserId() {
+		return userId;
 	}
 
-	public void setDeviceMake(String deviceMake) {
-		this.deviceMake = deviceMake;
-	}
-
-	public String getDeviceModel() {
-		return deviceModel;
-	}
-
-	public void setDeviceModel(String deviceModel) {
-		this.deviceModel = deviceModel;
-	}
-
-	public String getApplicationName() {
-		return applicationName;
-	}
-
-	public void setApplicationName(String applicationName) {
-		this.applicationName = applicationName;
+	public void setUserId(String userId) {
+		this.userId = userId;
 	}
 
 	@Override
 	public String toString() {
-		return "MozarkEventAttributeDto [deviceMake=" + deviceMake + ", deviceModel=" + deviceModel
-				+ ", applicationName=" + applicationName + "]";
+		return "MozarkEventAttributeDto [userId=" + userId + "]";
 	}
-	
-	
 
 }

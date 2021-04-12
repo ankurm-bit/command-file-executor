@@ -37,7 +37,7 @@ public class ConnectingMozarkAPI {
    		 body.add("eventName", uploadFileDto.getEventName());
    		 body.add("file",file);
    		 body.add("eventAttributes", uploadFileDto.getEventAttributeDto());
-   		 body.add("mozark.eventAttributes", "{}");
+   		 body.add("mozark.eventAttributes", uploadFileDto.getMozarkEventAttributeDto());
    		 logger.info("request body {} ",body.toString());
    		 HttpEntity<MultiValueMap<String, Object>> requestEntity = new HttpEntity<>(body, headers);
    		 RestTemplate restTemplate = new RestTemplate();
