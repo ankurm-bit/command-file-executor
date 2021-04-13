@@ -242,16 +242,23 @@ public class EventServiceImpl implements EventService {
                 	   storedProcessId.stream().forEach(id -> {
                 		  
 							try {
+								logger.info("id -------"+id);
 
-								Runtime rt = Runtime.getRuntime();
+								//Runtime rt = Runtime.getRuntime();
 								if (System.getProperty("os.name").toLowerCase().indexOf("windows") > -1) {
-									 Process p = rt.exec("taskkill " +id);
-									 p.destroy();
+									 Runtime.getRuntime().exec("taskkill " +id);
+									 //p.destroyForcibly();
+									 logger.info("inside windows");
 									 logger.info("killed process id - ",id);
 								}else {
-									Process p = rt.exec("kill -9 " +id);
-									p.destroy();
-									logger.info("killed process id - ",id);
+									logger.info("going to kill id - "+id);
+									String cmd = "kill "+id;
+									//Process p = rt.exec(cmd);
+									Runtime.getRuntime().exec(cmd);
+									logger.info(cmd);
+									//p.destroyForcibly();
+									logger.info("inside ubuntu");
+									logger.info("killed process id - "+id);
 								}
 							    
 							} catch (IOException e) {
